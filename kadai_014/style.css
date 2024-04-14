@@ -1,0 +1,48 @@
+
+ /* ルート要素 */
+html {
+  font-size: 20px;
+  }
+
+ /* body要素 */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+    
+  }
+
+   /* h1要素 */
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 1.2rem;
+    text-shadow:3px 3px #ce5504;
+  }
+
+  .google-fonts {
+     
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+   } 
+ 
+
+  /* 実線 */
+  .hr1 {
+    border-top: 3px solid rgb(115, 115, 114);
+  }
+  
+   /* div id="basic" 指定*/
+  #basic p
+   {
+    font-weight: bold;
+  }
+
+  /* テキスト色 */
+  .text-skyblue {
+      color: skyblue;
+    }
+
+   .text-pink {
+      color: rgb(255, 192, 203);
+   } 
