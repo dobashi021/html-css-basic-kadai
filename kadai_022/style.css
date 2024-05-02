@@ -54,8 +54,8 @@ h2 {
     justify-content: space-between;
 }
 
-/* div 子要素のクラス　contentの設定*/
-.content{
+/* div 子要素のクラス　contentsの設定*/
+.contents{
     border: solid 3px rgb(238,204,204);
     flex-basis: 25%;
     padding:10px,15px;
@@ -63,12 +63,12 @@ h2 {
     text-align: center;
 }
 
-.content p:nth-of-type(2)::first-letter{
+.contents p:nth-of-type(2)::first-letter{
     color: rgb(97,206,249);
     font-weight: 70%;
 }
 
-.content img{
+.contents img{
     margin: 10px,0px;
     width: 70%;
 } 
