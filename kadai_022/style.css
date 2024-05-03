@@ -1,0 +1,115 @@
+/* header要素の設定*/
+
+header {
+    padding-bottom: 20px;
+    background-color: rgb(244,79,79);
+    text-align : center;
+}
+
+/* body要素のスタイル設定*/
+
+body {
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+/*main要素の設定*/
+main {
+    margin: 10px; 
+    padding: 10px;
+}    
+
+/*footer要素の設定*/
+footer {
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+
+/* H1 要素のスタイル設定*/
+h1 {
+    margin: 0px;
+    padding: 0px;
+    color:rgb(255, 255, 255);
+    }
+
+/* p要素のスタイル設定*/   
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}    
+
+/* H2 要素のスタイル設定　*/
+h2 {
+    font-size: 25px;
+    border-bottom: 3px dotted rgb(236,122,122);
+}    
+
+h2::before{
+    content: "●";
+    color:rgb(239, 111, 139);
+}
+/* div 親要素のID parentの設定*/
+#parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* div 子要素のクラス　contentsの設定*/
+.contents{
+    border: solid 3px rgb(238,204,204);
+    flex-basis: 25%;
+    padding:10px,15px;
+    margin: 20px,0px;
+    text-align: center;
+}
+
+.contents p:nth-of-type(2)::first-letter{
+    color: rgb(97,206,249);
+    font-weight: bold;
+}
+
+.contents img{
+    margin: 10px,0px;
+    width: 70%;
+} 
+
+/*リンクのスタイルの設定*/
+a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/*訪問済リンクのスタイル設定*/
+a:visited {
+        color :rgb(193,234,251);
+    }
+
+
+/*リンクにマウスカーソルが乗った時の設定*/
+a:hover {
+        color :rgb(245,178,168);
+    }
+
+
+/*---------------------------------------------*/
+
+@media screen and (max-width:768px) {
+    /*768px以下の場合のスタイルの記述*/
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+    
+    #parent {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
